@@ -42,7 +42,6 @@ export const PageHead: React.FC<
       <meta name='theme-color' content='#EB625A' />
       <meta property='og:type' content='website' />
       <script
-        async
         src={`//sdk.51.la/js-sdk-pro.min.js`}
       />
       <script
