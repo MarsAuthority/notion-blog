@@ -46,7 +46,12 @@ export const PageHead: React.FC<
         src={`//sdk.51.la/js-sdk-pro.min.js`}
       />
       <script
-        />
+        dangerouslySetInnerHTML={{
+          __html: `
+        LA.init({id:"Jy2ZYdTNz5gKRs0W",ck:"Jy2ZYdTNz5gKRs0W"});
+        `
+        }}
+      />
       {config.twitter && (
         <meta name='twitter:creator' content={`@${config.twitter}`} />
       )}
