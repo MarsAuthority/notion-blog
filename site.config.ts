@@ -31,7 +31,7 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'MarsAuthority/notion-blog',
+  // utterancesGitHubRepo: 'MarsAuthority/notion-blog',
  
   // Cusdis comment widget (optional)
   // cusdis: {
