@@ -264,41 +264,41 @@ export const NotionPage: React.FC<types.PageProps> = ({
           theme={isDarkMode ? 'photon-dark' : 'github-light'}
         />
       )
-      // } else if (config.cusdis) {
-      //   if (!config.cusdis.appId) {
-      //     console.warn('[cusdis]', 'appId is required')
-      //   }
-      //   comments = darkMode.value ? (
-      //     <ReactCusdis
-      //       style={{
-      //         width: '100%',
-      //         marginTop: '30px'
-      //       }}
-      //       attrs={{
-      //         host: config.cusdis.host || 'https://cusdis.com',
-      //         appId: config.cusdis.appId,
-      //         pageId: pageId,
-      //         pageTitle: title,
-      //         pageUrl: canonicalPageUrl,
-      //         theme: 'dark'
-      //       }}
-      //     ></ReactCusdis>
-      //   ) : (
-      //     <ReactCusdis
-      //       style={{
-      //         width: '100%',
-      //         marginTop: '30px'
-      //       }}
-      //       attrs={{
-      //         host: config.cusdis.host || 'https://cusdis.com',
-      //         appId: config.cusdis.appId,
-      //         pageId: pageId,
-      //         pageTitle: title,
-      //         pageUrl: canonicalPageUrl,
-      //         theme: 'light'
-      //       }}
-      //     ></ReactCusdis>
-      //   )
+      } else if (config.cusdis) {
+        if (!config.cusdis.appId) {
+          console.warn('[cusdis]', 'appId is required')
+        }
+        comments = darkMode.value ? (
+          <ReactCusdis
+            style={{
+              width: '100%',
+              marginTop: '30px'
+            }}
+            attrs={{
+              host: config.cusdis.host || 'https://cusdis.com',
+              appId: config.cusdis.appId,
+              pageId: pageId,
+              pageTitle: title,
+              pageUrl: canonicalPageUrl,
+              theme: 'dark'
+            }}
+          ></ReactCusdis>
+        ) : (
+          <ReactCusdis
+            style={{
+              width: '100%',
+              marginTop: '30px'
+            }}
+            attrs={{
+              host: config.cusdis.host || 'https://cusdis.com',
+              appId: config.cusdis.appId,
+              pageId: pageId,
+              pageTitle: title,
+              pageUrl: canonicalPageUrl,
+              theme: 'light'
+            }}
+          ></ReactCusdis>
+        )
     }
   }
 
