@@ -21,7 +21,7 @@ import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
 import { ReactUtterances } from './ReactUtterances'
-import { ReactCusdis } from 'react-cusdis'
+// import { ReactCusdis } from 'react-cusdis'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
@@ -264,41 +264,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
           theme={isDarkMode ? 'photon-dark' : 'github-light'}
         />
       )
-      } else if (config.cusdis) {
-        if (!config.cusdis.appId) {
-          console.warn('[cusdis]', 'appId is required')
-        }
-        comments = isdarkMode.value ? (
-          <ReactCusdis
-            style={{
-              width: '100%',
-              marginTop: '30px'
-            }}
-            attrs={{
-              host: config.cusdis.host || 'https://cusdis.com',
-              appId: config.cusdis.appId,
-              pageId: pageId,
-              pageTitle: title,
-              pageUrl: canonicalPageUrl,
-              theme: 'dark'
-            }}
-          ></ReactCusdis>
-        ) : (
-          <ReactCusdis
-            style={{
-              width: '100%',
-              marginTop: '30px'
-            }}
-            attrs={{
-              host: config.cusdis.host || 'https://cusdis.com',
-              appId: config.cusdis.appId,
-              pageId: pageId,
-              pageTitle: title,
-              pageUrl: canonicalPageUrl,
-              theme: 'light'
-            }}
-          ></ReactCusdis>
-        )
+      
     }
   }
 
