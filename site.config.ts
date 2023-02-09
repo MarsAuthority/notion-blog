@@ -2,27 +2,27 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'f6f85c1f4880434d868f7cd43bd08c33',
+  rootNotionPageId: 'ef29dec025d143d3ae29be36681a4fcc',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'Lambd4',
+  rootNotionSpaceId: '7472f6c4-ea2e-45de-b643-908ef53dae3e',
 
   // basic site info (required)åå
-  name: 'hm_dev',
-  domain: 'hmdev.vercel.app',
-  author: 'hanmil lee',
+  name: 'Mars’ Blog | 记录·分享·回顾',
+  domain: 'mars.run',
+  author: 'Mars',
 
   // open graph metadata (optional)
-  description: "Hanmil's Notion blog",
+  description: "记录·分享·回顾",
   // socialImageTitle: 'HM_dev',
   // socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: 'hanmilLee',
-  linkedin: 'hanmil-lee-828a57187',
-  instagram: '2hanmil',
+  // github: 'hanmilLee',
+  // linkedin: 'hanmil-lee-828a57187',
+  // instagram: '2hanmil',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -31,7 +31,7 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'hanmilLee/nextjs-notion-starter-kit',
+  utterancesGitHubRepo: 'MarsAuthority/notion-blog',
  
   // Cusdis comment widget (optional)
   // cusdis: {
@@ -59,13 +59,13 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   
-  // navigationStyle: 'default',
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About me',
-      pageId: 'a32a59aec23c41e08452757e94d96418'
-    },
+  navigationStyle: 'default',
+  //navigationStyle: 'custom',
+  //navigationLinks: [
+  //  {
+  //    title: 'About me',
+  //    pageId: 'a32a59aec23c41e08452757e94d96418'
+  //  },
     // {
     //   title: 'About me',
     //   url: 'https://www.linkedin.com/in/hanmil-lee-828a57187/'
