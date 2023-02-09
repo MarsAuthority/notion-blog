@@ -34,7 +34,7 @@ export default siteConfig({
   // utterancesGitHubRepo: 'MarsAuthority/notion-blog',
  
   // Cusdis comment widget (optional)
-  cusdis: {
+  Cusdis: {
     appId: '5a2681e7-be51-4869-8fdc-80cce5ae33ad' // your website id
   },
   
