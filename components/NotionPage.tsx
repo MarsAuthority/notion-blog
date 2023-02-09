@@ -268,7 +268,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         if (!config.cusdis.appId) {
           console.warn('[cusdis]', 'appId is required')
         }
-        comments = darkMode.value ? (
+        comments = isdarkMode.value ? (
           <ReactCusdis
             style={{
               width: '100%',
