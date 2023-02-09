@@ -34,9 +34,9 @@ export default siteConfig({
   // utterancesGitHubRepo: 'MarsAuthority/notion-blog',
  
   // Cusdis comment widget (optional)
-  Cusdis: {
-    appId: '5a2681e7-be51-4869-8fdc-80cce5ae33ad' // your website id
-  },
+  // cusdis: {
+  //  appId: '5a2681e7-be51-4869-8fdc-80cce5ae33ad' // your website id
+  // },
   
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
