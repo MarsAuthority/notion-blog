@@ -61,7 +61,7 @@ export const linkedin: string | null = getSiteConfig('linkedin', null)
 export const instagram: string | null = getSiteConfig('instagram', null)
 
 // Optional Cusdis widget https://cusdis.com
-// export const cusdis = getSiteConfig('cusdis', null)
+export const cusdis = getSiteConfig('cusdis', null)
 export const newsletter: string | null = getSiteConfig('newsletter', null)
 export const zhihu: string | null = getSiteConfig('zhihu', null)
 
