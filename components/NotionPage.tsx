@@ -21,7 +21,7 @@ import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
 import { ReactUtterances } from './ReactUtterances'
-// import { ReactCusdis } from 'react-cusdis'
+import { ReactCusdis } from 'react-cusdis'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
