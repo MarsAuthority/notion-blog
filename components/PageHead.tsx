@@ -45,9 +45,8 @@ export const PageHead: React.FC<
         async
         src={`//sdk.51.la/js-sdk-pro.min.js`}
       />
-      <script
-        LA.init({id:"Jy2ZYdTNz5gKRs0W",ck:"Jy2ZYdTNz5gKRs0W"})
-      />
+      LA.init({id:"Jy2ZYdTNz5gKRs0W",ck:"Jy2ZYdTNz5gKRs0W"})
+      <script/>
       {config.twitter && (
         <meta name='twitter:creator' content={`@${config.twitter}`} />
       )}
