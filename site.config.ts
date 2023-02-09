@@ -31,12 +31,12 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'MarsAuthority/notion-blog',
+  // utterancesGitHubRepo: 'MarsAuthority/notion-blog',
  
   // Cusdis comment widget (optional)
-  // cusdis: {
-  //   appId: 'd39a1dc4-5580-4ad8-8d75-c6a486475b5a' // your website id
-  // },
+  cusdis: {
+    appId: '5a2681e7-be51-4869-8fdc-80cce5ae33ad' // your website id
+  },
   
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
