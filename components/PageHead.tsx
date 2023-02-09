@@ -43,19 +43,10 @@ export const PageHead: React.FC<
       <meta property='og:type' content='website' />
       <script
         async
-        src={`https://www.googletagmanager.com/gtag/js?id=${config.GAId}`}
+        src={`//sdk.51.la/js-sdk-pro.min.js`}
       />
       <script
-        dangerouslySetInnerHTML={{
-          __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${config.GAId}', {
-          page_path: window.location.pathname,
-        });
-        `
-        }}
+        LA.init({id:"Jy2ZYdTNz5gKRs0W",ck:"Jy2ZYdTNz5gKRs0W"})
       />
       {config.twitter && (
         <meta name='twitter:creator' content={`@${config.twitter}`} />
